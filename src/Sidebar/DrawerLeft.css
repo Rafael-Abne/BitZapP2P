@@ -1,0 +1,211 @@
+.drawerLeft__header {
+  background-color: #00bfa5;
+  height: 107px;
+  padding-left: 15px;
+}
+.drawerLeft__header_container {
+  display: flex;
+  align-items: center;
+  margin-top: 50px;
+}
+.drawerLeft__header_container > .MuiIconButton-root {
+  color: white;
+  font-size: 18px;
+}
+.drawerLeft__header_container > p {
+  color: white;
+  font-weight: 600;
+  font-size: 18px;
+  margin-left: 10px;
+}
+.drawerLeft__content {
+  display: flex;
+  flex-direction: column;
+  overflow: scroll;
+  -ms-overflow-style: none; /* Internet Explorer 10+ */
+  scrollbar-width: none;
+  background-color: #ededed;
+  flex: 1;
+}
+.drawerLeft__content::-webkit-scrollbar {
+  display: none; /* Safari and Chrome */
+}
+.drawerLeft__content_photo {
+  height: 200px;
+  padding-top: 8px;
+  padding-bottom: 30px;
+  margin: 0 auto;
+}
+.drawerLeft__content_photo > .MuiAvatar-root {
+  height: 200px;
+  width: 200px;
+}
+.profilePhoto {
+  /* max-width: 100%; */
+  height: auto;
+  position: relative;
+  display: inline-block;
+  overflow: hidden;
+  cursor: pointer;
+}
+.profilePhoto > .MuiAvatar-root {
+  height: 200px !important;
+  width: 200px !important;
+}
+.profilePhoto .profilePhoto__layer_bottom {
+  display: block;
+}
+.profilePhoto .profilePhoto__layer_top {
+  /* height: 200px !important; */
+  /* width: 200px !important; */
+  opacity: 0;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  background: rgba(107, 101, 101, 0.6);
+  color: #fff;
+  /* padding: 15px; */
+  -moz-transition: all 0.4s ease-in-out 0s;
+  -webkit-transition: all 0.4s ease-in-out 0s;
+  -ms-transition: all 0.4s ease-in-out 0s;
+  transition: all 0.4s ease-in-out 0s;
+}
+.profilePhoto:hover .profilePhoto__layer_top,
+.profilePhoto.active .profilePhoto__layer_top {
+  opacity: 1;
+}
+.profilePhoto__text {
+  display: flex;
+  flex-direction: column;
+}
+.profilePhoto .profilePhoto__text {
+  text-align: center;
+  font-size: 14px;
+  display: inline-block;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin: 0 auto;
+  -moz-transform: translate(-50%, -50%);
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+.drawerLeft__content_name {
+  height: 85px;
+  padding: 14px 35px 15px 30px;
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  margin-bottom: 20px;
+}
+.drawerLeft__content_name > p {
+  color: #57bab1;
+  margin-bottom: 25px;
+  font-size: 14px;
+  font-weight: 600;
+}
+.drawerLeft__content_name > form {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.drawerLeft__content_name > form > input {
+  border: none;
+  border-bottom: 2px solid #00bfa5 !important;
+  font-size: 17px;
+  color: #666666;
+  width: 100%;
+}
+.drawerLeft__content_name > form > span {
+  border: none;
+  font-size: 17px;
+  color: #666666;
+  width: 100%;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.drawerLeft__content_name > form > input:focus {
+  outline: 0 !important;
+}
+.drawerLeft__content_name > form > .MuiSvgIcon-root {
+  color: #919191;
+  font-size: 20px !important;
+  cursor: pointer;
+}
+.drawerLeft__note {
+  height: 50px;
+  background-color: #ededed;
+  padding: 0 40px 28px 30px;
+}
+.drawerLeft__note > span {
+  font-size: 14px;
+  color: #adadad;
+}
+.MuiDialogContent-root {
+  margin: 0 auto;
+  padding: 0 24px !important;
+  max-width: 545px;
+}
+.MuiTypography-h6 {
+  display: flex;
+}
+.MuiTypography-h6 div:last-child {
+  margin-left: auto;
+  margin-right: 15px;
+}
+.drawerLeft__content_photo_img {
+  width: 100%;
+  height: auto;
+}
+.MuiDialogTitle-root {
+  padding: 10px 24px !important;
+}
+.MuiTypography-h6 > div > .MuiAvatar-root {
+  margin-left: 6px !important;
+}
+.profileMenu_uploadPhoto > label {
+  cursor: pointer;
+}
+.profileMenu_uploadPhoto > input {
+  display: none;
+}
+.profileMenu__uploadPhoto_dialog > img {
+  width: 400px;
+  height: auto;
+  margin-bottom: 20px;
+}
+
+.profileMenu_uploadPhoto_iconButton {
+  /* background-color: #09E85E; */
+  /* border-radius: 50%; */
+  position: absolute;
+  bottom: 20px;
+  right: 40px;
+}
+.profileMenu_uploadPhoto_iconButton > .MuiIconButton-root {
+  color: white !important;
+  background-color: #09e85e;
+}
+.profileMenu_uploadPhoto_iconButton > .MuiIconButton-root:hover {
+  color: white !important;
+  background-color: #09e85e;
+}
+
+#form-dialog-title-drawerLeft {
+  background-color: #00bfa5 !important;
+}
+#form-dialog-content {
+  padding: 0 !important;
+}
+@media screen and (max-width: 600px) {
+  .MuiDialogContent-root {
+    padding: 25px 24px !important;
+  }
+}

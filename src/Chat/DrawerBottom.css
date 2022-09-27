@@ -1,0 +1,106 @@
+.drawerBottom__header {
+  background-color: #00bfa5;
+}
+.drawerBottom__header_container {
+  display: flex;
+  align-items: center;
+}
+.drawerBottom__header_container > p {
+  color: white;
+  font-size: 20px;
+  font-weight: 500;
+}
+.drawerBottom__header_container > .MuiIconButton-root {
+  color: white !important;
+  margin: 0 10px 0 10px;
+}
+.drawerBottom__content {
+  background-color: #e6e6e6;
+}
+.drawerBottom__content_photo {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  max-height: 800px;
+  flex-direction: column;
+}
+.drawerBottom__content_video {
+  height: 300px;
+  width: 100%;
+}
+.drawerBottom__content_video > .player-wrapper {
+  margin: 0 auto;
+  margin-top: 30px !important;
+}
+.drawerBottom__content_photo > img {
+  height: 300px;
+  margin: 20px 0 20px 0;
+}
+.drawerBottom__content_caption {
+  margin: 20px 120px 20px 120px;
+  display: flex;
+  align-items: center;
+}
+.drawerBottom__content_caption > .MuiFab-root {
+  position: absolute;
+  right: 45px;
+  bottom: 110px;
+  background-color: #09e85e;
+}
+.drawerBottom__content_caption > .MuiFab-root:hover {
+  background-color: #09e85e;
+}
+.drawerBottom__content_caption > input {
+  width: 100%;
+  background-color: #e6e6e6;
+  outline: 0;
+  border-width: 0 0 2px;
+  border-color: #00bfa5;
+  padding: 5px 0 5px 0;
+  font-size: 14px;
+  color: gray;
+}
+.drawerBottom__footer {
+  align-items: center;
+  align-content: center;
+  /* width: fill; */
+  height: 140px;
+  background-color: #d9d9d9;
+  padding: 20px 50px 20px 50px;
+  text-align: center;
+}
+.drawerBottom__footer > div {
+  align-content: center;
+}
+.drawerBottom__footer > div > img {
+  margin: 0 auto;
+  max-height: 78px;
+}
+
+@media screen and (max-width: 600px) {
+  .drawerBottom__content_photo > img {
+    max-height: 150px;
+    margin: 20px 0 20px 0;
+  }
+  .drawerBottom__content_caption {
+    margin: 20px 40px 20px 20px;
+  }
+  .drawerBottom__content {
+    background-color: #e6e6e6;
+    height: 100vh;
+  }
+  .drawerBottom__footer {
+    height: 140px;
+    padding: 20px 50px 20px 50px;
+  }
+}
+
+
+.drawerBottom__content_caption .emoji-mart {
+  top: 0px;
+  max-height: 390px;
+  width: 70% !important;
+  /* min-height: 50vh !important; */
+  background-color: #f0f0f0;
+}

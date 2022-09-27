@@ -1,0 +1,60 @@
+.chat-landing-screen {
+  background-color: #f8f9fb !important;
+  color: #5c6268;
+  /* align-content: center; */
+  /* text-align: center; */
+  height: 100vh;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.chat-landing-screen__photo {
+  width: 150px;
+}
+.chat-landing-screen > .MuiDivider-root {
+  width: 460px !important;
+  margin: 0 auto;
+  margin-top: 30px !important;
+  margin-bottom: 30px !important;
+}
+.chat-landing-screen > div {
+  max-width: 440px;
+  text-align: center;
+  margin-top: 10px !important;
+  margin-bottom: 10px !important;
+  margin: 0 auto;
+}
+.chat-landing-screen > .chat-landing-screen__title > p {
+  font-weight: 200 !important;
+  font-size: 36px;
+  color: #525252;
+  margin-bottom: 25px;
+}
+.chat-landing-screen > div > p {
+  /* margin: 20px; */
+  font-size: 14px;
+  line-height: 20px;
+  align-items: center;
+}
+.chat-landing-screen__footer {
+  display: flex;
+  align-items: center;
+  max-width: 360px !important;
+  margin-bottom: 20px;
+}
+.chat-landing-screen__footer > a {
+  color: #07bc4c;
+  text-decoration: none;
+  font-size: 14px;
+  font-weight: 600;
+  margin-left: 5px;
+}
+.chat-landing-screen__footer > p {
+  width: fit-content;
+}
+.chat-landing-screen__footer > .MuiSvgIcon-root {
+  font-size: 18px;
+  margin-right: 5px;
+  color: #919191;
+}

@@ -1,0 +1,85 @@
+.login {
+    background-color: #f8f8f8;
+    height: 100vh;
+    width: 100vw;
+    display: grid;
+    place-items: center;
+}
+.login__container {
+    padding: 70px;
+    text-align: center;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 10px 10px 18px #cbced1,
+                -10px -10px 18px #ffffff;
+}
+.login__container > img {
+    object-fit: contain;
+    width: 200px;
+    margin-bottom: 20px;
+}
+.login__text {
+    margin-bottom: 60px;
+}
+.login__withGoogle{
+    cursor: pointer;
+    display: flex;
+    flex: 1;
+    align-items: center;
+    text-align: center;
+    margin: 0 auto;
+    width: fit-content;
+    padding: 10px;
+    border-radius: 10px;
+    border: 1px solid lightgray;
+    background-color: white !important;
+}
+.login__withGoogle > img {
+    height: 25px !important;
+    margin-right: 10px;
+}
+.login__Anonymously {
+    margin-top: 10px;
+}
+.login__Anonymously > .MuiSvgIcon-root {
+    margin-right: 10px;
+}
+
+@media screen and (max-width: 600px) {
+    .login__container > img {
+        height: 80px;
+    }
+    .login__container {
+        padding: 30px;
+    }
+    .login__text > h1 {
+        font-size: 20px;
+    }
+    .login__withGoogle > span {
+        font-size: 12px;
+    }
+    .login__withGoogle > img {
+        height: 15px !important;
+        margin-right: 5px;
+    }
+    .login__Anonymously {
+        margin-top: 10px;
+    }
+    .login__Anonymously > .MuiSvgIcon-root {
+        margin-right: 5px;
+        font-size: 15px;
+    }
+}
+
+.login__container .inputs_login{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.login__container .inputs_login button{
+    margin-top: 10px;
+    background-color: rgb(68, 202, 119);
+    font-weight: bold;
+    margin-bottom: 20px;
+}

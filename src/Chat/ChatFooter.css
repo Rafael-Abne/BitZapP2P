@@ -1,0 +1,142 @@
+.chat__footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 62px;
+  border-top: 1px solid lightgray;
+  transition: 1s;
+}
+.chat__footer > form {
+  flex: 1;
+  display: flex;
+}
+.chat__footer > form > textarea {
+  flex: 1;
+  border-radius: 15px;
+  padding: 10px;
+  border: none;
+  /* word-wrap: break-word; */
+  /* white-space: pre-wrap; */
+  /* overflow-x: hidden; */
+  /* overflow-y: auto; */
+  font-size: 15px;
+  font-weight: 400;
+  min-height: 20px;
+  max-height: 100px;
+  resize: none;
+}
+.chat__footer > form > textarea:focus {
+  outline: none;
+}
+.chat__footer > form > button {
+  display: none;
+}
+.chat__footer > .MuiSvgIcon-root {
+  padding: 10px;
+  color: gray;
+}
+
+.chat__footer_emoji {
+  display: none;
+}
+.emoji-mart {
+  position: absolute !important;
+  bottom: 60px;
+  width: 100% !important;
+  /* min-height: 50vh !important; */
+  background-color: #f0f0f0;
+}
+.emoji-mart-bar {
+  border: 0;
+}
+.emoji-mart-anchors {
+  padding: 0;
+  border: 0;
+}
+.emoji-mart-anchor-icon {
+  color: #a3a3a3;
+}
+.emoji-mart-anchor-selected {
+  color: red !important;
+}
+.emoji-mart-anchor {
+  cursor: pointer;
+}
+.emoji-mart-anchor-bar {
+  background-color: #36aa9f !important;
+}
+.emoji-mart-anchor-icon {
+  color: #8b8b8b !important;
+}
+.emoji-mart-search {
+  margin: 5px 8px 15px 8px;
+}
+.emoji-mart-search-icon {
+  display: none;
+}
+.emoji-mart-search input {
+  font-size: 16px;
+  display: block;
+  width: 100%;
+  padding: 10px;
+  border-radius: 5px;
+  border: 0px solid #d9d9d9;
+  outline: 0;
+  background-color: #e6e6e6;
+  color: #4a4a4a;
+}
+.emoji-mart-search input::placeholder {
+  color: #989898;
+}
+.emoji-mart-category-label span {
+  display: block;
+  width: 100%;
+  font-weight: 500;
+  padding: 5px 6px;
+  color: #b4b4b4;
+  background-color: #f0f0f0;
+}
+.emoji-mart-bar:last-child {
+  display: none;
+}
+
+.chat__attachFile {
+  position: absolute;
+  bottom: 70px;
+  display: flex;
+  flex-direction: column;
+  z-index: 1000;
+  overflow: hidden;
+}
+.chat__attachFile > .MuiFab-root {
+  margin: 7px 0 7px 0;
+}
+.chat__icon {
+  height: 24px;
+}
+.chat__icon > label > .MuiSvgIcon-root {
+  cursor: pointer;
+}
+.chat__icon > input {
+  display: none;
+}
+
+@media screen and (max-width: 600px) {
+  .chat__footer {
+    position: sticky;
+    bottom: 0;
+    z-index: 100;
+    background-color: #045e54 !important;
+  }
+  .chat__footer > .MuiSvgIcon-root {
+    color: gray !important;
+  }
+  .emoji-mart {
+    position: absolute !important;
+    /* bottom: 60px; */
+    width: 100vw !important;
+  }
+  .emoji-mart-category-label {
+    top: -3px;
+  }
+}
