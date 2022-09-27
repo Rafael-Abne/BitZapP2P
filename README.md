@@ -1,3 +1,4 @@
+<img src="https://github.com/Rafael-Abne/BitZapP2P/blob/master/src/images/logo-bitmessage.png" />
 ## Client BitMessage - Node Js, React Js
 
 Bitmessage
