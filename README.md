@@ -1,6 +1,8 @@
 <img src="https://github.com/Rafael-Abne/BitZapP2P/blob/master/src/images/logo-bitmessage.png" />
 ## Client BitMessage - Node Js, React Js
 
+Sistema de mensagem descentralizado inspirado no frontend do whatasapp usando o protocolo bitmessage com foco na privacidade, planos futuros será colocar para rodar em um servidor externo para disponibilizar para qualquer pessoa utilizar.
+
 Bitmessage
 ============
 
@@ -15,12 +17,8 @@ of Bitmessages stay anonymous.
 
 Development
 ----------
-Bitmessage is a collaborative project. You are welcome to submit pull requests 
-although if you plan to put a non-trivial amount of work into coding new
-features, it is recommended that you first describe your ideas in the
-separate issue.
+Bitmessage é um protocolo de comunicação descentralizado, criptografado, ponto a ponto e sem confiança que pode ser usado por uma pessoa para enviar mensagens criptografadas para outra pessoa ou para vários assinantes.
 
-Feel welcome to join chan "bitmessage", BM-2cWy7cvHoq3f1rYMerRJp8PT653jjSuEdY
 
 References
 ----------
