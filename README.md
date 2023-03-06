@@ -1,14 +1,14 @@
 <img src="https://github.com/Rafael-Abne/BitZapP2P/blob/master/src/images/logo-bitmessage.png" />
 
-Client BitMessage - Node Js, React Js
+BitZap P2P - Client BitMessage - Node Js, React Js
 ============
 
-Sistema de mensagem descentralizado inspirado no frontend do whatasapp usando o protocolo bitmessage com foco na privacidade, planos futuros será colocar para rodar em um servidor externo para disponibilizar para qualquer pessoa utilizar.
+Decentralized messaging system inspired by the whatasapp frontend using the bitmessage protocol with a focus on privacy, future plans will be put to run on an external server to make it available for anyone to use.
 
 Bitmessage
 ============
 
-Bitmessage é um protocolo de comunicação descentralizado, criptografado, ponto a ponto e sem confiança que pode ser usado por uma pessoa para enviar mensagens criptografadas para outra pessoa ou para vários assinantes.
+Bitmessage is a P2P communications protocol used to send encrypted messages to another person or to many subscribers. It is decentralized and trustless, meaning that you need-not inherently trust any entities like root certificate authorities. It uses strong authentication which means that the sender of a message cannot be spoofed, and it aims to hide "non-content" data, like the sender and receiver of messages, from passive eavesdroppers like those running warrantless wiretapping programs.
 
 References
 ----------
