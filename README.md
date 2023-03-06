@@ -1,5 +1,7 @@
 <img src="https://github.com/Rafael-Abne/BitZapP2P/blob/master/src/images/logo-bitmessage.png" />
-## Client BitMessage - Node Js, React Js
+
+Client BitMessage - Node Js, React Js
+============
 
 Sistema de mensagem descentralizado inspirado no frontend do whatasapp usando o protocolo bitmessage com foco na privacidade, planos futuros será colocar para rodar em um servidor externo para disponibilizar para qualquer pessoa utilizar.
 
