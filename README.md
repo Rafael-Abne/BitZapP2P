@@ -6,19 +6,7 @@ Sistema de mensagem descentralizado inspirado no frontend do whatasapp usando o 
 Bitmessage
 ============
 
-Bitmessage is a P2P communication protocol used to send encrypted messages to
-another person or to many subscribers. It is decentralized and trustless,
-meaning that you need-not inherently trust any entities like root certificate
-authorities. It uses strong authentication, which means that the sender of a
-message cannot be spoofed. BM aims to hide metadata from passive eavesdroppers 
-like those ongoing warrantless wiretapping programs. Hence the sender and receiver 
-of Bitmessages stay anonymous.
-
-
-Development
-----------
 Bitmessage é um protocolo de comunicação descentralizado, criptografado, ponto a ponto e sem confiança que pode ser usado por uma pessoa para enviar mensagens criptografadas para outra pessoa ou para vários assinantes.
-
 
 References
 ----------
