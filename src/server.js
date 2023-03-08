@@ -17,6 +17,18 @@ app.listen(3000, () => {
 app.use(bodyParser.urlencoded({ extended: true }));
 app.use(bodyParser.json());   
 
+
+app.post('/createRandomAddress', (req, res) => {
+    try {
+        let { address } = req.body;
+        bitmessage.addresses.createRandom(address, function (cb) {
+            return res.json(cb)
+        })
+    } catch (err) {
+        console.dir(err);
+    }
+});
+
 app.post('/sendMessage', (req, res) => {
     try {
         let { toAddress, fromAddress, message, subject } = req.body;
