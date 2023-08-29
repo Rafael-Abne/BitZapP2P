@@ -19,3 +19,4 @@ References
 * [Discuss on Reddit](https://www.reddit.com/r/bitmessage)
 * [Chat on Gitter](https://gitter.im/Bitmessage/PyBitmessage)
 
+<img src="https://trello.com/1/cards/6403a3443d0370b46ef22403/attachments/6405645115e130f501c9959e/previews/6405645215e130f501c996a7/download/Captura_de_Tela_%281100%29.png" />
